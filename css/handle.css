@@ -1,0 +1,166 @@
+.handle_block{
+    padding: 20px 14px;
+}
+.handle_hd{
+    border: 1px solid #c9c9c9;
+}
+.hand_tt{
+    float: left;
+    line-height: 30px;
+    font-size: 14px;
+}
+.handle_top{
+    background: #f2f2f2;
+    padding: 14px 40px;
+    border-bottom: 1px dotted #dcdcdc;
+}
+.handle_list li,.type_list li{
+    float: left;
+    margin: 0 12px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    font-size: 12px;
+    color: #333;
+    white-space: nowrap;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.type_list li{
+    margin: 0 10px;
+}
+.handle_list li.on,.type_list li.on{
+    color: #fff;
+    background-color: #1E9FFF;
+}
+.handle_list li:hover,.type_list li:hover{
+    color: #fff;
+    background-color: #1E9FFF;
+}
+.tree_title{
+    background: #39dfd1;
+    padding: 16px 10px;
+}
+.tree_title h3{
+    color: #fff;
+    font-size: 14px;
+}
+.trees{
+    padding: 4px 50px 4px 0px;
+}
+.centent{
+    width: 100%;
+}
+.trees a{
+    display: inline;
+    font-size: 12px;
+}
+a.ontree:hover{
+    color: #fff !important;
+}
+.treebox{
+    max-height: 735px;
+    /* min-height: 350px; */
+}
+.centent{
+    height: auto;
+}
+.handle_area{
+    margin-top: 8px;
+}
+.type_tt{
+    float: left;
+    font-size: 14px;
+    color: #333;
+    line-height: 30px;
+    width: 6em;
+    text-align: right;
+    margin-right: 10px;
+}
+.type_area{
+    padding: 8px;
+    border: 1px solid #eee;
+}
+.type_area>div{
+    padding: 7px 20px;
+    border-bottom: 1px dotted #adadad;
+}
+.problem_block{
+
+}
+.layui-tab-title .layui-this{
+    color: #f40;
+}
+.p_info{
+    background: #e7e7e7;
+    padding: 10px;
+}
+.layui-breadcrumb a{
+    color: #484848 !important;
+}
+.p_org{
+    font-size: 12px;
+    color: #484848;
+    margin-left: 40px;
+}
+.new_icon{
+    font-size: 12px;
+}
+.p_cnt{
+    padding: 24px;
+}
+.p_img{
+    width: 100%;
+    border-bottom: 1px dotted #c9c9c9;
+}
+.options{
+    position: relative;
+    padding: 14px;
+    font-size: 12px;
+    color: #8c8c8c;
+}
+.options span{
+    cursor: pointer;
+    margin-right: 15px;
+}
+.opt_l{
+    position: absolute;
+    left: 0;
+    top: 13px;
+}
+.opt_r{
+    position: absolute;
+    right: 0;
+    top: 10px;
+
+}
+.options i{
+   color: #06e5d2;
+}
+.combina_cnt{
+    margin-right: 20px;
+}
+.ans{
+    padding: 10px;
+    font-size: 12px;
+    color: #333;
+    border: 1px solid #eee;
+    margin-top: 18px;
+    display: none;
+
+}
+.problem_list li{
+    border: 1px solid #eee;
+    margin-bottom: 10px;
+}
+.fixbug{
+    resize: none;
+    font-size: 12px;
+    color: #333;
+    margin-top: 18px;
+    display: none;
+}
+.fixbug::-webkit-input-placeholder{
+    font-size: 12px;
+}

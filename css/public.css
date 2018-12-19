@@ -349,7 +349,7 @@ a:hover{
 	height: 90px;
 	z-index: 2;
 	background-color: #fff;
-	box-shadow: 0px 15px 0px #ebebeb;
+	box-shadow: 0px 15px 26px 0px #ebebeb;
 }
 .head_nav>ul{
     margin-top: 34.5px;
