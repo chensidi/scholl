@@ -76,3 +76,41 @@
     position: relative;
     top: -1px;
 }
+
+@media screen and (max-width:768px){
+    #choose_area{
+        padding: 10px 0;
+        width: 100%;
+    }
+    .type_list li,.all,.many{
+        height: 22px;
+        line-height: 22px;
+        padding: 0 5px;
+        font-size: 12px;
+        width: 44px;
+        max-width: 100px;
+        margin: 3px 3px;
+    }
+    .type_list ul{
+        width: 100%;
+        margin-left: 0;
+    }
+    .options{
+        top: 10px;
+    }
+    .more_active{
+        font-size: 12px;
+    }
+    .layui-icon-down{
+        font-size: 12px;
+    }
+    #test_area li,#test_area th,#test_area td{
+        font-size: 12px;
+    }
+    .layui-table td, .layui-table th{
+        padding: 9px 4px;
+    }
+    .grades li{
+        width: 60px;
+    }
+}

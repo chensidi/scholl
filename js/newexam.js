@@ -1,27 +1,27 @@
 (function(){
-
+  var style = $(window).width()>768?['count', 'prev', 'page', 'next', 'skip']:['prev', 'next']
   layui.use(['element','laypage'], function(){
       var element = layui.element,
           laypage = layui.laypage;
           laypage.render({
             elem: 'pagebar1' //注意，这里的 test1 是 ID，不用加 # 号
             ,count: 50 //数据总数，从服务端得到
-            ,layout: ['count', 'prev', 'page', 'next', 'skip']
+            ,layout: style
           });
           laypage.render({
             elem: 'pagebar2' //注意，这里的 test1 是 ID，不用加 # 号
             ,count: 50 //数据总数，从服务端得到
-            ,layout: ['count', 'prev', 'page', 'next', 'skip']
+            ,layout: style
           });
           laypage.render({
             elem: 'pagebar3' //注意，这里的 test1 是 ID，不用加 # 号
             ,count: 50 //数据总数，从服务端得到
-            ,layout: ['count', 'prev', 'page', 'next', 'skip']
+            ,layout: style
           });
           laypage.render({
             elem: 'pagebar4' //注意，这里的 test1 是 ID，不用加 # 号
             ,count: 50 //数据总数，从服务端得到
-            ,layout: ['count', 'prev', 'page', 'next', 'skip']
+            ,layout: style
           });
     });
     
