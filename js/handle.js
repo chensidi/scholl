@@ -1,4 +1,5 @@
 (function(){
+    var opt = $(window).width()>768?['count', 'prev', 'page', 'next', 'skip']:['prev', 'next'];
     layui.use(['element','laypage','form'], function(){
         var element = layui.element,
             laypage = layui.laypage,
@@ -7,7 +8,7 @@
         laypage.render({
             elem: 'pages'
             ,count: 50
-            ,layout: ['count', 'prev', 'page', 'next', 'skip']
+            ,layout: opt
             ,jump: function(obj){
                 console.log(obj)
             }

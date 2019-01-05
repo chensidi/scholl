@@ -12,7 +12,7 @@
     <link rel="shortcut icon " type="images/x-icon" href="img/index/shorticon.png">
 </head>
 <body>
-    <div class="header"> 
+    <div class="header layui-hide-xs"> 
         <div class="tops">
             <div class="layui-container">
                 <div class="layui-row">
@@ -51,6 +51,30 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="xs_header layui-show-xs-block layui-hide-sm">
+        <img src="img/index/logo.png" alt="乙墨教学" class="xs_logo">
+        <button class="layui-icon layui-icon-spread-left" id="drop"></button>
+    </div>
+    <div id="xs_option">
+        <ul>
+            <li>
+                <a href="index.html">首页</a>
+            </li>
+            <li>
+                <a href="newexam.html">最新试题</a>
+            </li>
+            <li>
+                <a href="combination.html">智能组卷</a>  
+            </li>
+            <li>
+                <a href="login.html">登录</a>
+            </li>
+        </ul>
+    </div>
+    <div class="xs_serach layui-hide-sm">
+        <input type="text" name="title" required  lay-verify="required" placeholder="请输入标题" autocomplete="off" class="layui-input">
+        <i class="layui-icon layui-icon-search ser"></i>
     </div>
     <div class="layui-container main_bd">
         <div>
@@ -447,7 +471,7 @@
             </div>
         </div>
     </div>
-    <div class="footer">
+    <div class="footer layui-hide-xs">
         <div class="layui-container">
             <div class="layui-row">
                 <ul class="foot_list layui-col-sm2">
@@ -478,9 +502,19 @@
             </div>
         </div>
     </div>
+    <div class="xs_footer layui-hide-sm">
+        <p class="text-center">
+            电话：000-0000000 客服QQ：00000000
+        </p>
+        <p class="text-center">
+            传真：0000000000 邮箱：abc@yimo.com
+        </p>
+        <p class="text-center">地址：成都市金牛区胡同街电子大厦15F07室2018 蜀ICP备5971531号</p>
+    </div>
 </body>
 </html>
 <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
 <script type="text/javascript" src="js/treescroll.min.js"></script>
 <script type="text/javascript" src="layui/layui.js"></script>
 <script type="text/javascript" src="js/handle.js"></script>
+<script type="text/javascript" src="js/index.js"></script>

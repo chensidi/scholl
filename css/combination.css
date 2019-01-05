@@ -87,3 +87,36 @@ a.ontree:hover{
     margin-top: 35px;
     text-align: center;
 }
+
+@media screen and (max-width: 768px){
+    .combina_block {
+        padding: 20px 0px;
+    }
+    .trees {
+        padding: 4px 0px 4px 4px;
+    }
+    .treebox{
+        padding: 12px 0;
+    }
+    .select_group .layui-input-inline{
+        width: 100%;
+    }
+    .select_group .mid{
+        position: relative;
+        left: 0;
+        margin: 10px 0;
+    }
+    .known{
+        padding: 10px 0;
+    }
+    .known th,.known td{
+        font-size: 12px;
+    }
+    .table_wrap{
+        min-width: 100%;
+        overflow-x: auto;
+    }
+    .table_wrap table{
+        min-width: 200%;
+    }
+}

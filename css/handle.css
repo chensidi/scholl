@@ -164,3 +164,45 @@ a.ontree:hover{
 .fixbug::-webkit-input-placeholder{
     font-size: 12px;
 }
+
+@media screen and (max-width: 768px){
+    .handle_block{
+        padding: 20px 0;
+    }
+    .handle_top{
+        padding: 0 12px;
+    }
+    .trees{
+        padding: 4px 0px 4px 0px;
+    }
+    .treebox{
+        padding: 12px 0;
+    }
+    .type_tt{
+        width: auto;
+    }
+    .type_list li{
+        margin: 0;
+    }
+    .p_cnt{
+        padding: 0;
+    }
+    .p_org {
+        margin: 5px 0;
+    }
+    .options span{
+        margin-right: 1px;
+    }
+    .combina_cnt{
+        margin-right: 0px;
+    }
+    .opt_r button{
+        padding: 0 5px;
+    }
+    .layui-tab-content{
+        padding: 10px 0;
+    }
+    .type_area>div{
+        padding: 7px 14px;
+    }
+}

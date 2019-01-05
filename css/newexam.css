@@ -113,4 +113,10 @@
     .grades li{
         width: 60px;
     }
+    .table_wrap{
+        overflow-x: auto;
+    }
+    .table_wrap table{
+        width: 300%;
+    }
 }
